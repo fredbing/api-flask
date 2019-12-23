@@ -16,8 +16,6 @@ def greet(who):
     return greeting
 
 
-a = "Dave"
-print(greet(a))
 print(greet("John"))
 r = requests.get("https://coreyms.com")
 print(r.status_code)

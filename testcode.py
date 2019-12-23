@@ -16,7 +16,9 @@ def greet(who):
     return greeting
 
 
-print(greet("John"))
+person_b = "John Adams"
+print(person_b)
+print(greet("Walter"))
 r = requests.get("https://coreyms.com")
 print(r.status_code)
 
